@@ -2,6 +2,8 @@
 
 An analysis of Olist, a company that connects small and medium Brazilian stores to large online marketplaces. We try to understand the growth of the business and where deliveries fell short. Built with Python, Pandas and Google Colab.
 
+🇧🇷 Resumo: análise de ~100 mil pedidos da Olist em Python (Pandas). Principais resultados: 6,8% das entregas atrasaram (21% em AL), pedidos atrasados têm nota média 2,3 vs 4,3 e só 2,1% dos clientes voltam a comprar.
+
 ## Questions Answered
 
 1. How did orders and revenue change month by month?
