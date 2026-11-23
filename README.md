@@ -2,14 +2,21 @@
 
 An analysis of Olist, a company that connects small and medium Brazillian stores to the large online marketplace. We try to understand the growth of the business and where deliveries fell short using Python, Pandas and Google Colab.
 
-# Key Findings
+## Key Findings
+
 1. The data shows a steady revenue growth between 2016 and 2017 with a peak in November 2017 when Black Friday happens. We noted a drop in 2018's last month since the orders were probably still being delivered.
 2. About 6.8% of all the orders were late, with AL (21%) and MA (17%) being the top 2 states with the highest percentage of late orders. We also noticed most of the late orders were in the northeast region. However, a big market like RJ with 12,553 orders had a 12% late percentage which affects more users than AL and MA where there were fewer orders.
 3. The late deliveries had a review score of around 2.3, which was 2 points below the 4.3 review score for orders on time. We proved that the result is both statistically relevant and practically relevant.
 4. Out of all the unique users, only 3% came back to make a second order. Out of those 2801 second orders, 853 were actually made on the same day. It showed that the actual percentage of customers who came back was even lower, at around 2%. Showing that the business relies mostly on new customers, which can be worrisome for revenue if finding new customers becomes expensive.
 
 # Google Colab
-The project was created using a Google Colab notebook where we also found some key.
+The project was created using a Google Colab Jupyter notebook. 
+
+![Revenue peaked in November 2017 because of Black Friday](images/revenue_m.png)
+
+![AL and MA had the highest percentage of late orders with the 3x and 2.5x higher than the national average](images/late_orders.png)
+
+![Review scores dipped considerably when orders were late](images/review_scores_on_time_late.png)
 
 # Questions Answered
 1. How did orders and revenue change month by month?
